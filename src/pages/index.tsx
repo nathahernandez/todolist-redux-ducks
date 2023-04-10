@@ -17,7 +17,7 @@ export default function Home() {
       <h1 className="text-xl font-bold">Todo List Test Redux Toolkit</h1>
       <div className="flex flex-col justify-center items-center gap-4">
         <input 
-            className="outline-none rounded-md w-64 h-12" 
+            className="outline-none rounded-md w-64 h-12 px-2" 
             type="text" 
             onChange={(event) => setInput(event.target.value)}
         />
